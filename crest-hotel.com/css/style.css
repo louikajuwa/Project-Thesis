@@ -1,0 +1,251 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+::selection {
+	background-attachment: none;
+}
+body {
+	background: #223;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+.content {
+  	position: fixed;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+}
+.content-padding {
+	padding: 10px;
+}
+.content h1 {
+	text-align: center;
+	color: white;
+	font-weight: 100;
+	font-size: 40px;
+	letter-spacing: 4px;
+}
+.user-sub {
+	padding: 20px;
+}
+.user-available-room {
+	padding: 10px;
+	text-align: center;
+	color: white;
+	font-size: 10px;
+	font-family: Arial;
+	letter-spacing: 1px;
+}
+.content .user-input {
+	margin-left: 2px;
+	color: #111;
+	padding: 10px;
+	width: 200px;
+	border-style: none;
+}
+.content .user-submit {
+	cursor: pointer;
+	border-style: none;
+	padding: 10px;
+	background: orange;
+	color: white;
+	transition: background 1s ease-in-out;
+}
+.content .user-submit:hover {
+	background: darkorange;
+}
+
+footer {
+	margin-top: 40px;
+	text-align: center;
+	padding: 16px;
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom:0;
+}
+footer ul li {
+	display: inline-block;
+}
+footer ul li a {
+	color: white;
+	text-decoration: none;
+	font-family: fantasy;
+	font-size: 11px;
+	letter-spacing: 1px;
+	padding: 10px;
+}
+
+/* rooms/index.php */
+.content-fill-form {
+	border-radius: 10px;
+	width: 300px;
+	padding-left: 30px;
+	color: #fff;
+	background: #223c;
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	padding: 10px;
+  	margin-top: 0px;
+}
+.align-left p {
+	margin: 10px;
+	background: #222c;
+	padding: 10px;
+	 
+}
+span {
+	color: orange;
+}
+.content-fill-form p {
+	word-break: break-all;
+	font-family: Arial;
+	font-size: 12px;
+	letter-spacing: 1px;
+}
+.rooms {
+	width: 260px;
+	margin: 10px;
+}
+.input-margin {
+	padding: 6px;
+	border-radius: 4px;
+	margin: 5px;
+}
+.input-margin::placeholder {
+	text-align: center;
+}
+.header {
+	text-align: center;
+	color: #fff;
+	font-weight: 100;
+	font-size: 24px;
+	letter-spacing: 1px;
+
+}
+hr {
+	margin: 5px;
+	border: 1px solid orange;
+}
+label{
+	font-family: Arial;
+	font-size: 11.5px;
+}
+select {
+	padding: 4px;
+	border-style: none;
+	width: 165px;
+}
+input {
+
+	padding: 5px;
+	border-style: none;
+}
+input[type="date"],input[type="time"] {
+	width: 162px;
+}
+.submit-1 {
+	text-decoration: none;
+	font-family: Arial;
+	font-size: 11px;
+	cursor: pointer;
+	border-radius: 10px;
+	padding: 10px;
+	background: orange;
+	color: #fff;
+	margin: 5px;
+}
+.align-left {
+	text-align: left;
+}
+/* */
+@media screen and (max-width: 1100px) {
+
+	.content {
+  		position: fixed;
+  		top: 50%;
+  		left: 30%;
+  		transform: translate(-20%, -50%);
+	}
+	.content .user-input {
+		margin: 10px;
+		width: 80%;
+	}
+	.content .user-submit {
+		width: 100%;
+		padding: 10px;
+		margin-top: 10px;
+	}
+	.header {
+		margin-top: 10px;
+		font-size: 28px;
+	}
+}
+
+
+.bg {
+	background: #efefef;
+}
+.page ul li{
+	color: #fff;
+	display: inline-block;
+}
+.page a {
+	background: #111;
+	padding: 5px;
+	text-decoration: none;
+	color: #fff;
+}
+.page {
+	color: orange;
+}
+table {
+	width: 100%;
+	font-family: arial;
+	color: #fff;
+}
+th {
+	font-weight: 100;
+	font-size: 12px;
+	background: #333;
+	color: orange;
+	padding: 20px;
+}
+td {
+	color: #111;
+	font-size: 13px;
+	text-align: center;
+	background: #fffc;
+	padding: 10px;
+}
+td a {
+	text-decoration: none;
+	color: orange;
+}
+.login-ad {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+nav {
+	padding: 10px;
+	background: #111c;
+	width: 100%;
+}
+nav a {
+	font-family: arial;
+	font-size: 12px;
+	padding: 10px;
+	text-decoration: none;
+	color: #fff;
+}
+nav input[type="submit"] {
+	background: none;
+	color: #fff;
+	cursor: pointer;
+}
